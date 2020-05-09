@@ -4,5 +4,5 @@ We propose a modified CNN model to accurately diagnose COVID-19 and hence delay 
 In order to accelerate and elevate the accuracy of diagnosis, we also propose a modified pre-trained deep learning model to detect COVID-19
 
 
-
-Tools: Anaconda-jupyter notebook
+To address this problem, we adopt two approaches: transfer learning and data augmentation. Transfer learning aims to leverage a large collection of data from a relevant domain to help with the learning in the interested domain. Specically, we use a large
+collection of chest X-ray images to pre-train a deep convolutional neural network, then fine-tune this pre-trained network on the COVID-CT dataset.
